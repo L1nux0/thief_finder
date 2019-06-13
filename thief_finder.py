@@ -80,7 +80,7 @@ if sys.platform.startswith("win"):
     pyinstaller = input('would you like to make your exe with Pyinstaller? y= yes n = no: ')
     if pyinstaller == 'y':
         os.system('pyinstaller --onefile --noconsole ./output/thief_finder.py')
-        print('\n\tYou will find your exe file in "dist" directory ready for Pyinstaller\n')
+        print('\n\tYou will find your exe file in "dist" directory ready for use\n')
     else:
         pass
 else:
